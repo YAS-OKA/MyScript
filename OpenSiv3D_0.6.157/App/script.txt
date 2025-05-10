@@ -1,0 +1,58 @@
+﻿FizzBuzz(int i)
+{
+    result=fmt(i)+" ";
+    if(i%3==0)result+="Fizz";
+    if(i%5==0)result+="Buzz";
+    return result;
+}
+for(i=1;i<=15;i+=1)
+{
+    print(FizzBuzz(i))
+}
+
+// rdarm=type(Object),
+// lleg=type(Object),
+// emo=type(Object),
+// body=type(Object)
+
+// [@init:master=input("master")]
+// {
+//     @(
+//         rdarm=getParts(master,"rdarm"),
+//         emo=getParts(master,"emo"),
+//         body=getParts(master,"body")
+//     )
+// }
+
+// [dir]
+// {
+//     a=type(int),b="char"
+//     [dir]
+//     {
+//         a="a"
+//         [@act:arg1=type(int),arg2=1]
+//         {
+//             {time=1,obj=rdarm,flg=false}
+//             @dir\dir\test()
+//             @rotate(60)
+//             @move{obj=body}(0,-50)
+//             >@(flg=true)>
+//             @changeIm{obj=emo,time=0.5}()
+//             @effect("kirakira",2)
+//             @{}{
+//                 @wait(2)
+//                 >@(..\..\a="aa")>
+//                 @print("hello",1)
+//             }
+//         }
+//         [@test]
+//         {
+//             {target=find(master,"body")}
+//             @rotate(200)
+//         }
+//         [@main]
+//         {
+
+//         }
+//     }
+// }
